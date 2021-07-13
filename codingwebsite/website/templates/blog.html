@@ -1,0 +1,107 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Blog Page{% endblock %}
+{% block content %}
+    <!-- Hero End -->
+    <!--? Blog Area Start-->
+    <section class="blog_area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-5 mb-lg-0">
+                    <div class="blog_left_sidebar">
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="assets/img/blog/single_blog_1.png" alt="">
+                                <a href="#" class="blog_item_date">
+                                    <h3>15</h3>
+                                    <p>Jan</p>
+                                </a>
+                            </div>
+                            <div class="blog_details">
+                                <a class="d-inline-block" href="https://mullikine.github.io/posts/time-space-complexity/">
+                                    <h2 class="blog-head" style="color: black;">Time and Space Complexity</h2>
+                                </a>
+                                <p>In real world applications developers are bound by the physical memory of the systems that they intend to run on. This is where space complexity becomes important,
+                                   because we never want to run a function or process that exceeds the amount of space the system has at any given time.</p>
+
+                            </div>
+                        </article>
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="assets/img/blog/single_blog_2.png" alt="">
+                                <a href="#" class="blog_item_date">
+                                    <h3>25</h3>
+                                    <p>Jan</p>
+                                </a>
+                            </div>
+                            <div class="blog_details">
+                                <a class="d-inline-block" href="https://www.enjoyalgorithms.com/blog/recursion-explained-how-recursion-works-in-programming">
+                                    <h2 class="blog-head" style="color: black;">Recursion</h2>
+                                </a>
+                                <p>Recursive thinking is really important in programming. It helps you break down bit problems into smaller ones.
+                                   Often, the recursive solution can be simpler to read than the iterative one.</p>
+
+                            </div>
+                        </article>
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="assets/img/blog/single_blog_3.png" alt="">
+                                <a href="#" class="blog_item_date">
+                                    <h3>10</h3>
+                                    <p>Feb</p>
+                                </a>
+                            </div>
+                            <div class="blog_details">
+                                <a class="d-inline-block" href="https://www.hackerearth.com/practice/data-structures/linked-list/singly-linked-list/tutorial/">
+                                    <h2 class="blog-head" style="color: black;">Linked List</h2>
+                                </a>
+                                <p>The principal benefit of a linked list over a conventional array is that the list elements can be easily inserted or removed without reallocation or reorganization of the entire structure because the data items need not be stored contiguously in memory or on disk, while restructuring an array at run-time is a much more expensive operation. Linked lists allow insertion and removal of nodes at any point in the list, and allow doing so with a constant number of operations by keeping the link previous to the link being added or removed in memory during list traversal.</p>
+
+                            </div>
+                        </article>
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="assets/img/blog/single_blog_4.png" alt="">
+                                <a href="#" class="blog_item_date">
+                                    <h3>1</h3>
+                                    <p>Mar</p>
+                                </a>
+                            </div>
+                            <div class="blog_details">
+                                <a class="d-inline-block" href="https://afteracademy.com/blog/getting-started-with-competitive-programming">
+                                    <h2 class="blog-head" style="color: black;">Starting Competitive Coding</h2>
+                                </a>
+                                <p>Doing competitive programming helps you to find the most optimal solution in the least possible time. It helps make these trade-offs and in this scenario,
+                                  this skill is much needed where you need to improve the time and complexity in your code and you need to find the optimal solution for the problem.</p>
+
+                            </div>
+                        </article>
+
+                        <nav class="blog-pagination justify-content-center d-flex">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a href="#" class="page-link" aria-label="Previous">
+                                        <i class="ti-angle-left"></i>
+                                    </a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link">1</a>
+                                </li>
+                                <li class="page-item active">
+                                    <a href="#" class="page-link">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link" aria-label="Next">
+                                        <i class="ti-angle-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+  {% endblock %}
