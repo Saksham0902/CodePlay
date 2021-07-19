@@ -11,8 +11,6 @@
   background: #f5f5f5;
 }
 
-/*-------------Color include--------------*/
-/*-- Background color---*/
 
 .gray-bg {
   background: #f7f7fd;
@@ -5221,7 +5219,7 @@ hr {
 
 /* line 596, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_blog_page.scss */
 .blog_details {
-  padding: 30px 0 20px 10px;
+  padding: 30px 50 20px 10px;
   box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
   background-color: white;
 }
@@ -5229,7 +5227,7 @@ hr {
 @media (min-width: 768px) {
   /* line 596, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_blog_page.scss */
   .blog_details {
-    padding: 60px 30px 35px 35px;
+    padding: 60px 30px 65px 35px;
   }
 }
 
