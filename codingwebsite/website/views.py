@@ -85,5 +85,23 @@ def logoutUser(request):
     logout(request)
     return redirect('login.html')
 
-def problem(request):
-    return render(request,'problem.html',{})
+def ThreeNumberSum(request):
+    return render(request,'problems/ThreeNumberSum.html',{})
+
+def ProductSum(request):
+    return render(request,'problems/ProductSum.html',{})
+
+def RemoveKthElementFromTheEnd(request):
+    return render(request,'problems/RemoveKthElementFromTheEnd.html',{})
+
+def ValidateBST(request):
+    return render(request,'problems/ValidateBST.html',{})
+
+def MoveElementToEnd(request):
+    return render(request,'problems/MoveElementToEnd.html',{})
+
+def NumberOfWaysToMakeChange(request):
+    return render(request,'problems/NumberOfWaysToMakeChange.html',{})
+
+def SingleCycleCheck(request):
+    return render(request,'problems/SingleCycleCheck.html',{})
